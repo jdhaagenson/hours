@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hours"
+version = "0.1.0"
+description = "A scheduling solution built fto help pwith Kenzie Academy's coaching program"
+authors = ["Jordan Haagenson <jdhaagenson@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8.5"
+django = "^3.1.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
